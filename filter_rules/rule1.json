@@ -1,0 +1,32 @@
+{
+  "rules": [
+    {
+      "field_name": "from",
+      "predicate": "contains",
+      "value": "mithra"
+    },
+    {
+      "field_name": "subject",
+      "predicate": "contains",
+      "value": "test"
+    },
+    {
+      "field_name": "date_received",
+      "predicate": "less_than",
+      "value": "1_day"
+    }
+  ],
+  "actions": [
+    {
+      "field_name": "message",
+      "action": "move",
+      "value": "inbox"
+    },
+    {
+      "field_name": "message",
+      "action": "mark",
+      "value": "read"
+    }
+  ],
+  "rule_predicate": "all"
+}

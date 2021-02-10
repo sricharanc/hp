@@ -1,0 +1,6 @@
+*.pyc
+__pycache__/
+*.log
+*.lock
+authorized_emails/*.json
+authorized_emails/*.pickle
