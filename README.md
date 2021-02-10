@@ -21,7 +21,7 @@ Currently supports the gmail API. Support can be additionally added for other cl
 
 ## Design
 
-Refer to the design folder to understand more about the design.
+Refer to the [design](https://github.com/sricharanc/hp/tree/main/design) folder to understand more about the design.
 
 ## Usage
 
